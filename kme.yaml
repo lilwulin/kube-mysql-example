@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metaData:
+  name: kme
+  labels:
+    name: kme
+spec:
+  containers:
+  - image: lilwulin/kube-mysql-example
+    name: kme
